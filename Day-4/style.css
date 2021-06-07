@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.circle {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: inset 0px 0px 9px 1px rgba(0, 0, 0, 0.75),
+    0px 0px 0px 3px rgba(255, 255, 255, 1), 0px 0px 0px 50px rgba(255, 0, 0, 1),
+    0px 0px 0px 55px rgba(211, 211, 211, 1);
+}
+
+.circle > div {
+  border: 0.1rem solid black;
+  margin: 1rem;
+  background-color: black;
+  min-width: 45%;
+  top: 45%;
+  left: 45%;
+  transform: rotate(-90deg);
+}
+
+.sec {
+  position: absolute;
+  animation: sec 60s infinite linear;
+  transform-origin: bottom left;
+}
+
+@keyframes sec {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.min {
+  position: absolute;
+  animation: min 3600s infinite linear;
+  transform-origin: bottom left;
+}
+
+@keyframes min {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hrs {
+  position: absolute;
+  animation: min 216000s infinite linear;
+  transform-origin: bottom left;
+}
+
+@keyframes hrs {
+  to {
+    transform: rotate(360deg);
+  }
+}
