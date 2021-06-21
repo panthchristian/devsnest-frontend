@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: rgb(22, 22, 26);
+  background-color: #010101;
   margin: 1rem 7rem;
   padding: 1rem 0;
   border-radius: 10px;
@@ -17,7 +17,7 @@
 body {
   height: 100vh;
   line-height: 1.25;
-  background-color: #242629;
+  background-color: var(--background-color);
 }
 
 header {
@@ -56,9 +56,25 @@ header {
 
 header > div {
   text-align: center;
-  color: #fffffe;
+  color: var(--color);
 }
 
 header > div > div {
   font-size: 2rem;
+}
+
+:root {
+  --background-color: #fffffe;
+  --color: #181818;
+}
+/* body {
+  background-color: var(--background-color);
+  color: var(--color);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #16161a;
+    --color: #fffffe;
+  }
 }

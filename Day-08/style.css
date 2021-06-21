@@ -17,19 +17,10 @@
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #fff;
-  color: #333;
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* .center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
 
 body {
   margin: 0;
@@ -46,8 +37,6 @@ label {
   margin: 0;
   padding: 0px 10px 0px 10px;
   background: #de4738;
-  /* border: 0.5px solid #de4738; */
-  /* display: block; */
 }
 
 input:checked ~ label {
@@ -58,4 +47,20 @@ input:checked ~ label {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+:root {
+  --background-color: #fffffe;
+  --color: #181818;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #16161a;
+    --color: #fffffe;
+  }
 }

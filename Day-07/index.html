@@ -3,9 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <title>day 7</title>
+    <style>
+      :root {
+        --background-color: #fffffe;
+        --color: #181818;
+      }
+      body {
+        background-color: var(--background-color);
+        color: var(--color);
+        text-align: center;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: #16161a;
+          --color: #fffffe;
+        }
+      }
+    </style>
   </head>
   <body>
-    Open Dev Console to see output
+    <h1>Open Dev Console to see output</h1>
     <script src="./script.js"></script>
   </body>
 </html>

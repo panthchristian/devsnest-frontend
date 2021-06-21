@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-flow: row wrap;
   width: 840px;
-  background-color: #0f0e17;
 }
 
 .card {
@@ -47,8 +46,3 @@ body {
 .front-face {
   transform: rotateY(180deg);
 }
-
-/* .back-face {
-  filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(115deg)
-    brightness(108%) contrast(108%);
-} */

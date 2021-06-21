@@ -2,3 +2,19 @@
 * {
   font-family: "Poppins";
 }
+
+:root {
+  --background-color: #fffffe;
+  --color: #181818;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #16161a;
+    --color: #fffffe;
+  }
+}
