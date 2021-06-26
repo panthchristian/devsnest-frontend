@@ -20,6 +20,9 @@ I came to know how HTML, CSS, Javascript work with each other to create the user
 | Day 08 | [Link](https://panthchristian.github.io/devsnest-frontend/Day-08/index.html) |
 | Day 09 | [Link](https://panthchristian.github.io/devsnest-frontend/Day-09/index.html) |
 | Day 10 | [Link](https://panthchristian.github.io/devsnest-frontend/Day-10/index.html) |
+| Day 11 | [Link](https://panthchristian.github.io/devsnest-frontend/Day-11/index.html) |
+| Day 12 | [Link](https://panthchristian.github.io/devsnest-frontend/Day-12/index.html) |
+| Day 13 | [Link](https://panthchristian.github.io/devsnest-frontend/Day-13/index.html) |
 
 ## Feedback
 
