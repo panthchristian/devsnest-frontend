@@ -1,0 +1,27 @@
+.board {
+  height: fit-content;
+  width: 25vw;
+  background-color: black;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 0px 0px 40px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 0px 40px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 40px rgba(0, 0, 0, 1);
+}
+
+.square {
+  width: 1fr;
+  height: 5vh;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: #fff;
+}

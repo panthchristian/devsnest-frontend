@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #16161a;
+  color: #fffffe;
+  border-radius: 10px;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  max-width: fit-content;
+  text-align: center;
+  box-shadow: 0 5px 15px -10px #000;
+}
+
+@media (prefers-color-scheme: light) {
+  .card-container {
+    background-color: #fffffe;
+    color: #272343;
+  }
+}
