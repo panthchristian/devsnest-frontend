@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.styles.css";
-export const Card = (props) => (
+export const Card = () => (
   <div className="card-container">
     <img
       src="https://i.imgflip.com/2kuh6f.jpg"

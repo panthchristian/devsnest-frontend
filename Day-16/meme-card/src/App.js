@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import Card from "./component/Card/card.component";
 import ChessBoard from "./component/chess-board/chessboard.component";
 import "./App.css";

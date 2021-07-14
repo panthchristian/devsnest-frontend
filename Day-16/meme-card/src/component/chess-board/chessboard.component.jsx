@@ -1,6 +1,6 @@
 import React from "react";
 import "./chessboard.styles.css";
-export const ChessBoard = (props) => (
+export const ChessBoard = () => (
   <div class="board">
     <div class="row">
       <div class="square"></div>

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 90%;
+  background: #6b8e23;
+  padding: 5px 5px 26px;
+  margin: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2 {
+  margin: 0.5rem 0.25rem;
+}
